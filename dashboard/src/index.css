@@ -1,0 +1,98 @@
+body{font-family: 'Times New Roman', Times, serif; 
+    width:100%;
+    }
+.trigger{
+    padding:0 24 px;
+    font-size:18px;
+    line-height: 64px;
+    cursor:pointer;
+    transition: color 0.3s;
+}
+.trigger:hover{
+    color:  #FBE7D7;;
+}
+.logo{
+    height:55px;
+   margin-top: 30px;
+   margin-left: -10px;
+   margin-bottom:25px;   
+}
+.ant-layout{
+min-height:100vh;
+}
+input , Link{
+    height: 40px;
+    width:335px;
+}
+#login{
+    height: 40px;
+    width:335px;
+}
+main{
+    background-color: transparent !important;
+    font-size: 40px;
+    width:1100px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top:100px;
+}
+.ant-layout-sider{
+    flex: 0 0 260px !important;
+    max-width: 260px !important;
+    min-width:260px !important;
+    width:260px !important;
+    background-color: #FBE7D7;
+   
+}
+.ant-layout-sider-collapsed{
+    flex: 0 0 90px !important;
+    max-width: 90px !important;
+    min-width:90px !important;
+    width:90px !important;
+    transition:0.3s;
+}
+.logo{
+    background-image: url("logo.png");
+    padding-bottom: 40px;
+    transition: 0.3s;
+
+}
+.anticon{ 
+    margin-left: 25px;
+}
+.ant-layout-sider-children{
+    background-color: #FBE7D7;
+    font-family: 'Times New Roman', Times, serif;
+}
+.ant-menu{ background-color:#FBE7D7;font-family: 'Times New Roman', Times, serif; font-size:18px;
+color:black;}
+.ant-menu-item {background-color: #FBE7D7; font-family: 'Times New Roman', Times, serif;color:black;}
+li.ant-menu-item .ant-menu-item-selected{background-color: #FBE7D7;
+    font-family: 'Times New Roman', Times, serif;}
+    .ant-menu-item-selected{background-color: #FBE7D7;}
+Button{
+    margin-left:95px;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2{ font-family: 'Times New Roman', Times, serif;}
+label{ font-family: 'Times New Roman', Times, serif; 
+    
+}
+header .ant-layout-header{background-color: #FBE7D7;}
+Form.ant-form{ font-family: 'Times New Roman', Times, serif; 
+font-size: 40px;}
+.Column{font-family: 'Times New Roman', Times, serif; 
+    font-size: 40px;}
+table{font-family: 'Times New Roman', Times, serif; font-size: 18px;}
+.ant-form{padding-left: 
+    20px;
+}
+.ant-form label{font-weight: 700;
+    font-size: 150px;}
+    .ant-card-body{ display: inline-grid;
+        grid-template-columns: auto auto  auto auto ;
+   }
+    .ant-card{ padding: 20px;}
+     .ant-layout-content{background-color: transparent !important;}
+    .ant-space { margin-left: 140px;}
+   .ant-upload-list{display: grid;
+    grid-template-columns: auto;}
